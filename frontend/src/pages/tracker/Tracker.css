@@ -1,0 +1,247 @@
+/* timeline css */
+@keyframes fill-color {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes fill-color1 {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 50%;
+    }
+}
+
+@keyframes scaleup {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade {
+    0% {
+        color: rgba(black, 0.4);
+    }
+
+    100% {
+        color: rgba(black, 1);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline {
+    padding: 0;
+    list-style: none;
+    margin: 15px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.details {
+    margin-left: 48px;
+    border-bottom: 1px solid #f2f2f2;
+    min-height: 70px;
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list,
+.list-content {
+    position: relative;
+    width: 100%;
+}
+
+.list-content::before,
+.list-content::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: 0.2s all linear;
+    width: 0.714rem;
+    height: 0.714rem;
+    border-radius: 50%;
+    background-color: gray;
+    top: 50%;
+    z-index: 3;
+    margin-left: 0.35rem;
+    /* margin-top: rem(-8px); */
+    margin-top: -30px;
+}
+
+.list-content::after {
+    z-index: 2;
+}
+
+.list {
+    position: relative;
+    width: 100%;
+}
+
+.list.active .list-content:before {
+    transform: scale(0);
+    width: 32px;
+    height: 32px;
+    border: 2px solid white;
+    background-color: #1976d2;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 9px 7px;
+    /* margin-left: -1px; */
+    margin-left: -4px;
+    margin-top: -37px;
+    animation: scaleup 0.4s forwards;
+}
+
+.list:before,
+.list:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: 0.1s all linear;
+    width: 0.214rem;
+    margin-left: 0.6rem;
+    margin-top: -30px;
+}
+
+.list:before {
+    background: #f2f2f2;
+    height: 100%;
+}
+
+.list:after {
+    background: #1976d2;
+    height: 0;
+    z-index: 1;
+}
+
+.list:before {
+    top: -50%;
+}
+
+.list.active:after {
+    top: 0;
+    animation: fill-color 0.4s forwards;
+}
+
+.list:last-child:after {
+    display: none;
+}
+
+.list:last-child.active:after {
+    display: block;
+    bottom: 50%;
+    animation: fill-color1 0.4s forwards;
+}
+
+.list:last-child .details {
+    border-bottom: none;
+}
+
+.list:first-child:before {
+    display: none;
+}
+
+.list:first-child.active:after {
+    animation: fill-color1 0.0s forwards;
+    top: 50%;
+}
+
+.list:first-child.active:after {
+    animation-delay: 1s;
+}
+
+.list:first-child.active .list-content:before {
+    animation-delay: 0.5s;
+}
+
+.list:nth-child(2).active:after {
+    animation-delay: 2s;
+}
+
+.list:nth-child(2).active .list-content:before {
+    animation-delay: 2s;
+}
+
+.list:nth-child(3).active:after {
+    animation-delay: 3s;
+}
+
+.list:nth-child(3).active .list-content:before {
+    animation-delay: 3s;
+}
+
+.list:nth-child(4).active:after {
+    animation-delay: 4s;
+}
+
+.list:nth-child(4).active .list-content:before {
+    animation-delay: 4.15s;
+}
+
+.list:nth-child(5).active:after {
+    animation-delay: 5s;
+}
+
+.list:nth-child(5).active .list-content:before {
+    animation-delay: 5.15s;
+}
+
+.list:nth-child(6).active:after {
+    animation-delay: 6s;
+}
+
+.list:nth-child(6).active .list-content:before {
+    animation-delay: 6.15s;
+}
+
+.list:nth-child(7).active:after {
+    animation-delay: 7s;
+}
+
+.list:nth-child(7).active .list-content:before {
+    animation-delay: 7.15s;
+}
+
+.list:nth-child(8).active:after {
+    animation-delay: 8s;
+}
+
+.list:nth-child(8).active .list-content:before {
+    animation-delay: 8.15s;
+}
+
+.list:nth-child(9).active:after {
+    animation-delay: 9s;
+}
+
+.list:nth-child(9).active .list-content:before {
+    animation-delay: 9.15s;
+}
+
+.list:nth-child(10).active:after {
+    animation-delay: 10s;
+}
+
+.list:nth-child(10).active .list-content:before {
+    animation-delay: 10.15s;
+}

@@ -1,0 +1,21 @@
+.sibebar-link{
+
+   display: contents;
+}
+.ant-menu-item-selected {
+    background-color: #1890ff; /* Highlight color */
+    color: #ffffff; /* Text color when active */
+  }
+  
+  .ant-menu-item {
+    transition: background-color 0.3s;
+  }
+  
+  .ant-menu-item:hover {
+    background-color: rgba(24, 144, 255, 0.1); /* Light hover color */
+  }
+  
+  .white-text {
+    color: white;
+  }
+  

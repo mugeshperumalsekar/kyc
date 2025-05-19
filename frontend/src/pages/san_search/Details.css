@@ -1,0 +1,103 @@
+
+/* @media print {
+/* Ensure the table and its contents are fully visible when printing 
+.card-body {
+overflow: visible !important;
+}
+.table-container {
+overflow: visible !important;
+}
+table {
+page-break-inside: auto;
+width: 100%;
+overflow: visible !important;
+}
+table tr {
+page-break-inside: avoid;
+page-break-after: auto;
+overflow: visible !important;
+}
+table td {
+overflow: visible !important;
+}
+} */
+@media print {
+    .non-printable {
+        display: none;
+    }
+}
+
+/* @media print {
+    .card{
+    box-shadow: none !important;
+    border: none !important;
+    }
+    .card-body {
+    overflow: visible !important;
+    }
+    .table-container {
+    overflow: visible !important;
+    }
+    table {
+    page-break-inside: auto;
+    width: 100%;
+
+    }
+    table tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+   
+    }
+   
+    .sticky-headers th {
+    position: sticky !important;
+    top: 0 !important;
+    background-color: white !important;
+    z-index: 1000; 
+    }
+    
+
+    .card-body {
+    border: none !important;
+    box-shadow: none !important;
+    }
+    } */
+    
+    
+    .green-text {
+    color: green;
+    }
+    .red-text {
+    color: red;
+    }
+    .yellow-text {
+    color: rgb(255, 0, 200);
+    }
+    
+    
+    .activeButton {
+    /* width: 100px;
+    height: 50px; */
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+    .activeButton.active {
+    background-color: #0056b3;
+    }
+    
+    .activeButton.active {
+    background-color: #0056b3;
+    }
+    
+    
+      
+    
+    
+    
+    
+      

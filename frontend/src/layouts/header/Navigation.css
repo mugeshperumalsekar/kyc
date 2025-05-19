@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .ml-auto {
+      margin-left: auto !important;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .d-md-block {
+      display: block !important;
+    }
+  }

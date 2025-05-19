@@ -1,0 +1,30 @@
+/* annotation-layer.css */
+
+/* Example styles for annotation layer */
+.annotation-container {
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .annotation {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* text-layer.css */
+  
+  /* Example styles for text layer */
+  .text-container {
+    position: absolute;
+    font-size: 12px;
+    color: #555;
+    background-color: #fff;
+    padding: 5px;
+  }
+  
+  .text {
+    line-height: 1.5;
+  }
+  

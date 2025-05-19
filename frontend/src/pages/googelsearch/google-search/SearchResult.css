@@ -1,0 +1,35 @@
+/* SearchResult.css */
+
+.sidebar-content {
+  padding: 16px;
+  overflow-y: auto;
+  background-color: lightgray; /* Light gray color for the sidebar */
+  height: 100%; /* Ensure it takes full height */
+}
+
+.search-results {
+  margin-top: 16px;
+  max-height: calc(100vh - 100px); 
+  overflow-y: auto;
+}
+
+.ant-checkbox {
+  margin-bottom: 8px;
+}
+
+.ant-layout {
+  background: none; /* Remove default background */
+}
+
+.ant-layout-sider {
+  background: none; /* Remove default background */
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+
+}
+
+

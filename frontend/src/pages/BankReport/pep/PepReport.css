@@ -1,0 +1,37 @@
+.PepReportform-label-custom {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.Reportform-input-custom {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.pepreport-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pepreport-table th,
+.pepreport-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.pepreport-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.pepreport-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-pepReport {
+    width: 100%;
+    border-radius: 5px;
+}

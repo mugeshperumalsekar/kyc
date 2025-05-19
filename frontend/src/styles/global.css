@@ -1,0 +1,228 @@
+body {
+  font-family: 'Bookman Old Style', serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.allheading {
+  color: #333;
+  font-family: 'Bookman Old Style';
+  font-size: 14px;
+}
+
+.allhref {
+  color: white !important;
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 14px !important;
+}
+
+.layoutsheading {
+  color: #333;
+  font-family: 'Bookman Old Style';
+  font-size: 20px;
+}
+
+.custom-list-item-text .MuiTypography-root {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+.custom-list-item-text-open .MuiTypography-root {
+  opacity: 1 !important;
+}
+
+.custom-list-item-text-closed .MuiTypography-root {
+  opacity: 0 !important;
+}
+
+.custom-textfield label.MuiFormLabel-root {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+.custom-textfield .MuiInputBase-input {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+.custom-menu-item {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+div {
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+}
+
+.MuiButton-root {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.MuiButton-root:hover {
+  background-color: white;
+}
+
+.allbutton {
+  background-color: #1976d2 !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  border-radius: 4px !important;
+  font-family: 'Bookman Old Style' !important;
+  font-size: 12px !important;
+}
+
+.allbutton:hover {
+  background-color: #115293 !important;
+  font-family: 'Bookman Old Style' !important;
+  font-size: 12px !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+}
+
+.MuiTable-root {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 12px;
+}
+
+.MuiTableHead-root {
+  background-color: white;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 12px;
+}
+
+.MuiTableCell-root {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Bookman Old Style', serif;
+  font-size: 12px;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  font-weight: bold;
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+}
+
+.MuiTableBody-root .MuiTableCell-root {
+  background-color: white;
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+}
+
+.MuiTableBody-root .MuiTableRow-root:nth-child(even) {
+  background-color: white;
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+}
+
+.css-dsuxgy-MuiTableCell-root {
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+}
+
+.alltable {
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.MuiTableCell-root.alltablecell {
+  font-family: 'Bookman Old Style';
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.MuiTypography-root {
+  font-family: 'Bookman Old Style', !important;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.MuiDialog-root {
+  font-family: 'Bookman Old Style', !important;
+  font-size: 12px;
+}
+
+.custom-dialog-title {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+  padding: 0px 0px !important;
+  color: black !important;
+}
+
+.MuiDialogContent-root {
+  font-family: 'Bookman Old Style', !important;
+  font-size: 12px;
+}
+
+.MuiDialogActions-root {
+  font-family: 'Bookman Old Style', !important;
+  font-size: 12px;
+}
+
+.custom-steps .ant-steps-item {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+  padding-bottom: 0px;
+}
+
+.custom-steps .ant-steps-item-title {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+.custom-steps .ant-steps-item-description {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+.custom-steps .ant-tooltip-inner {
+  font-family: 'Bookman Old Style', serif !important;
+  font-size: 12px !important;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+.css-1jxkhgz-MuiGrid-root>.MuiGrid-item {
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+}
+
+.css-1jxkhgz-MuiGrid-root>.MuiGrid-item {
+  padding-left: 0px !important;
+  padding-top: 0px !important;
+}
+
+.uploadedFile {
+  background-color: lightgreen;
+  border: 2px solid green;
+  padding: 10px;
+}
+
+.notUploadedFile {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 10px;
+}

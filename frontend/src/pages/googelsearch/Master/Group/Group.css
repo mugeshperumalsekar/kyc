@@ -1,0 +1,87 @@
+/* Group.css */
+
+body {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+
+.text-field {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+
+.tableHeading {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+
+.nav-item button {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+
+.btn-outline-primary {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+
+.card-body {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+
+.MuiButton-root {
+    font-family: 'Bookman Old Style', serif;
+    font-size: 12px;
+}
+/* App.css */
+body {
+    font-family: 'Bookman Old Style';
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    padding: 30px;
+    margin: 5px;
+    background-color: white;
+}
+
+.card {
+    box-shadow: 1px 1px 1px grey;
+    width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.nav {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    padding: 1px 8px;
+    margin-right: 4px;
+}
+
+.tableHeading {
+    background-color: #cccdd1;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .tablePagination {
+        margin-left: 0;
+    }
+}

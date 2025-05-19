@@ -1,0 +1,145 @@
+@media (min-width: 768px) {
+  .upload-contact-container {
+    flex-wrap: wrap;
+  }
+
+  .upload-contact-container>div {
+    flex-basis: 33.33%;
+  }
+}
+
+h2 {
+  color: #5c9973;
+}
+
+.upload-contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-container {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 1px;
+  margin-top: 1%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.person-containers {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 1px;
+  margin-top: 1%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.field-group {
+  display: flow-root;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 30px;
+}
+
+.field-group-column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 30px;
+}
+
+.field-group input {
+  flex: 1;
+  height: 20px;
+  padding: 9px;
+  transition: border-color 0.3s ease;
+  font-size: medium;
+  margin-right: 10px;
+  min-width: 120px;
+}
+
+.field-group-container {
+  background-color: rgba(39, 165, 243, 0.1);
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.close-button {
+  border: none;
+  color: #c71d1d;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 100%;
+}
+
+.add-button {
+  border: none;
+  color: #03214e;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-button:hover {
+  color: rgba(2, 42, 95, 0.6);
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.delete-icon {
+  border: none;
+  color: #fa2104;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.upload-name-address {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.upload-country-city-state {
+  display: flex;
+  margin-top: 10%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.upload-email-website-phone {
+  display: flex;
+  margin-top: 10%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.person-container .field-group:last-child {
+  margin-bottom: 0;
+}
+
+.details-container {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.details-containers {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.typesecondary:hover {
+  color: #5c636a;
+}

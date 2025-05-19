@@ -1,0 +1,55 @@
+.arrow {
+    /* width: 246px; */
+    width: 194px;
+    height: 35px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+    clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%, 15% 50%);
+    transition: background-color 0.3s;
+};
+
+.arrow:hover {
+    background-color: #0056b3;
+};
+
+.arrow.active {
+    background-color: #0056b3;
+};
+
+.person-container {
+    border: 1px solid white;
+    background-color: white;    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    position: relative;
+};
+
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    color: red;
+};
+
+.button-container {
+    margin-top: 16px;
+    text-align: right;
+};
+
+.add-people {
+    margin-top: 16px;
+};
+
+.arrows {
+    width: 150px !important;
+    height: 50px;
+    color:black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 23px;
+};

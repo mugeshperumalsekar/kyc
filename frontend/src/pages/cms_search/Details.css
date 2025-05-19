@@ -1,0 +1,36 @@
+@media print {
+    /* Ensure the table and its contents are fully visible when printing */
+    .card-body {
+        overflow: visible !important;
+    }
+    .table-container {
+        overflow: visible !important;
+    }
+    table {
+        page-break-inside: auto;
+        width: 100%;
+        overflow: visible !important;
+    }
+    table tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+        overflow: visible !important;
+    }
+    table td {
+        overflow: visible !important;
+    }
+  }
+  .green-text {
+    color: green;
+}
+.red-text {
+    color: red;
+}
+.yellow-text {
+    color: yellow;
+}
+
+
+
+
+  

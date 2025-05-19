@@ -1,0 +1,96 @@
+/* :root {
+    --main-color: #f4f5f6; 
+    --point-color: #1976d2; 
+    --overlay-color: rgba(233, 233, 233, 0.8); 
+    --size: 40px; 
+};
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--overlay-color); 
+    z-index: 999;
+};
+
+body.blur {
+    filter: blur(px);
+};
+
+.loader {
+    border: 8px solid var(--main-color); 
+    border-radius: 50%; 
+    border-top: 8px solid var(--point-color); 
+    width: var(--size);
+    height: var(--size);
+    animation: spin 1s linear infinite; 
+};
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}; */
+
+
+:root {
+    --main-color: #f4f5f6; /* Main spinner color */
+    --point-color: #1976d2; /* Spinner point color */
+    --overlay-color: rgb(255 255 255 / 38%); /* Very transparent white for glass effect */
+    --size: 40px; /* Size of the spinner */
+}
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--overlay-color); /* Transparent background */
+    backdrop-filter: blur(0px); /* Initial blur set to 0 */
+    -webkit-backdrop-filter: blur(0px); /* Safari support */
+    animation: blurAnimation 1s ease-in-out forwards; /* Add animation */
+    border-radius: 10px; /* Optional: for softer rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    z-index: 999;
+}
+
+/* @keyframes blurAnimation {
+    0% {
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px); 
+    }
+    100% {
+        backdrop-filter: blur(10px); 
+        -webkit-backdrop-filter: blur(10px); 
+    }
+} */
+
+.loader {
+    border: 8px solid var(--main-color); /* Base spinner color */
+    border-radius: 50%; /* Make it round */
+    border-top: 8px solid var(--point-color); /* Top border for the spinning effect */
+    width: var(--size);
+    height: var(--size);
+    animation: spin 1s linear infinite; /* Spin animation */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
